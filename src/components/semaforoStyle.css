@@ -1,0 +1,51 @@
+.father {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+}
+.borderBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 20px;
+  height: 500px;
+  width: 200px;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 450px;
+  width: 150px;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+#gray {
+  background-color: gray;
+}
+#red {
+  background-color: red;
+}
+#yellow {
+  background-color: rgb(240, 240, 10);
+}
+#green {
+  background-color: green;
+}
+.stick {
+  background-color: black;
+  height: 700px;
+  width: 50px;
+}
